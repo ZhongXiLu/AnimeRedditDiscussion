@@ -1,0 +1,32 @@
+{
+  "name": "anime-reddit-discussion",
+  "version": "1.0.0",
+  "description": "Adds a link to the corresponding reddit discussion of the current anime episode that you are watching.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhongXiLu/AnimeRedditDiscussion.git"
+  },
+  "keywords": [
+    "anime",
+    "reddit",
+    "9anime"
+  ],
+  "author": "ZhongXiLu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhongXiLu/AnimeRedditDiscussion/issues"
+  },
+  "homepage": "https://github.com/ZhongXiLu/AnimeRedditDiscussion#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.231",
+    "copy-webpack-plugin": "^11.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

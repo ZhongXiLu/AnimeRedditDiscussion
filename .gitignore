@@ -102,3 +102,25 @@ dist
 
 # TernJS port file
 .tern-port
+
+# IntelliJ-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compiled output
+/out/
+/classes/
+/target/
+/build/
+/bin/
+/gen/
+/*.class
+/*.jar
+
+# Logs and other generated files
+*.bak
+*.swp
+*.tmp
+*.DS_Store
